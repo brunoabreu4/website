@@ -7,16 +7,25 @@
 
 body {
     background-color: black;
+    color: white;
+}
+
+.content {
+  display: block;
 }
 
 /* NAVBAR */
+
+.navbar {
+  display: block;
+}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 20%;
-  background-color: rgb(37, 37, 37);
+  background-color: black;
   height: 100%;
   position: fixed;
   overflow: auto;
@@ -34,3 +43,4 @@ li a:hover {
   background-color: #555;
   color: white;
 }
+
